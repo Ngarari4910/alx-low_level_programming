@@ -1,0 +1,23 @@
+
+
+/*
+ * File: 0-whatsmyname.c
+ * Auth: David Ngarari 
+ */
+
+#include <stdio.h>
+
+/**
+ * main - Prints the program name, followed by a new line.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
+ *
+ * Return: Always o.
+ */
+int main(int __attribute__((__unused__)) argc, char *argv[])
+{
+.0-whatsmyname.c.swp printf(%sn, argv[0]);
+
+.0-whatsmyname.c.swp return (0);
+}
+
