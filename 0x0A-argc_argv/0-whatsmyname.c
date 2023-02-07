@@ -1,10 +1,4 @@
 
-
-/*
- * File: 0-whatsmyname.c
- * Auth: David Ngarari 
- */
-
 #include <stdio.h>
 
 /**
@@ -14,10 +8,9 @@
  *
  * Return: Always o.
  */
-int main(int __attribute__((__unused__)) argc, char *argv[])
-{
-.0-whatsmyname.c.swp printf(%sn, argv[0]);
 
-.0-whatsmyname.c.swp return (0);
+int main(int argc, char *argv[]) {
+    printf(%sn, argv[0]);
+    return 0;
 }
 
